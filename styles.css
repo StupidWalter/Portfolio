@@ -1,0 +1,87 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fffcbe;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #289f32;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section button {
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+nav {
+    background-color: rgb(73, 172, 107);
+}
+
+.nav-icon {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.title a{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+.navigations ul li a {
+    font-size: 22px;
+    margin: auto 10px;
+    color: black;
+}
+
+.logout {
+    border: 3px solid black;
+    border-radius: 70%;
+    background-color: rgb(202, 75, 75);
+}
+
+.navigations ul li a:hover {
+    color: white;
+}
+
+#hero {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+/* About Me Site */
+
+.more button{
+    min-width: 300px; 
+}
+  
+.card{
+    background-color: #a0c4ff;
+    box-shadow: 11px 7px 16px #5f5c5c;
+}
